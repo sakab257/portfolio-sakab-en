@@ -11,7 +11,7 @@ const ContactMe = () => {
         <h2 className='text-4xl text-center w-4/5 font-extrabold'><span className="text-transparent bg-clip-text bg-gradient-to-r from-[#CBACF9] to-[#D4B7FF]">Envie</span> de passer au niveau <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#CBACF9] to-[#D4B7FF]">supérieur</span> ?</h2>
         <div className='text-center text-[#C1C2D3] text-lg'>
             <p>Parlons de vos objectifs.</p>
-            <p>Contactez-moi dès aujourd'hui</p>
+            <p>Contactez-moi dès aujourd&apos;hui</p>
         </div>
         <Link href="/contact"><Button label="Contactez Moi" icon={<ArrowUpRight />}/></Link>
     </div>

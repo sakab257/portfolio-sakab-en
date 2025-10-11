@@ -1,6 +1,5 @@
 import Card from '@/components/experiences/card'
 import ContactMe from '@/components/experiences/contact-me'
-import ProjectList from '@/components/projets/project-list'
 import React from 'react'
 
 const Experiences = () => {
