@@ -1,4 +1,4 @@
-# Portfolio - Salim Akab
+# Portfolio - Sakab
 
 A modern, responsive portfolio website showcasing my projects, experiences, and skills. Built with Next.js 15, React 19, and Tailwind CSS 4.
 
@@ -186,7 +186,7 @@ This project is private and proprietary.
 
 ## Contact
 
-Salim Akab
+Salim Bouskine
 - Website: [Your Portfolio URL]
 - GitHub: [@sakab257](https://github.com/sakab257)
 - LinkedIn: [Your LinkedIn]
