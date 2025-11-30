@@ -30,7 +30,9 @@ const Prochainement = () => {
     return (
     <Card>
         <div className='w-full h-full px-4 py-6 relative'>
-            <h2 className='text-xl font-bold'>Disponible pour des <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#CBACF9] to-[#D4B7FF]">opportunités</span> à toutes les échelles</h2>
+            <h2 className='text-xl font-bold'>
+                Available for <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#CBACF9] to-[#D4B7FF]">opportunities</span> of any scale
+            </h2>
             <Image src="/vfx/world.svg" alt="World" width={350} height={170} className='pointer-events-none absolute bottom-0 right-0 opacity-60' />
             <FullRemote />
             <OnSite />

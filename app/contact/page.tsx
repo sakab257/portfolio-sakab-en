@@ -17,26 +17,26 @@ const ContactPage = () => {
   const handleSubmit = () => {
     // Validation
     if (!formData.name.trim()) {
-      setError('Veuillez renseigner votre nom')
+      setError('Please enter your name')
       return
     }
     if (!formData.email.trim()) {
-      setError('Veuillez renseigner votre email')
+      setError('Please enter your email')
       return
     }
     if (!formData.subject.trim()) {
-      setError('Veuillez renseigner l\'objet du message')
+      setError('Please enter the message subject')
       return
     }
     if (!formData.message.trim()) {
-      setError('Veuillez renseigner votre message')
+      setError('Please enter your message')
       return
     }
 
     setError('')
 
     // Construct email body with user info
-    const emailBody = `${formData.message}\n\nNom: ${formData.name}`
+    const emailBody = `${formData.message}\n\nName: ${formData.name}`
     const mailtoLink = `mailto:salim.bouskine@dauphine.eu?subject=${encodeURIComponent(formData.subject)}&body=${encodeURIComponent(emailBody)}`
     window.location.href = mailtoLink
   }
@@ -44,30 +44,30 @@ const ContactPage = () => {
   return (
     <div className='w-full h-full'>
       <h1 className="w-full text-4xl md:text-5xl xl:text-6xl font-bold text-center mb-3">
-        Vous souhaitez me <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#CBACF9] to-[#D4B7FF]">contacter</span> ?
+        Want to <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#CBACF9] to-[#D4B7FF]">contact me</span>?
       </h1>
       <p className="text-center text-[#C1C2D3]/70 text-sm md:text-base mb-8">
-        Remplissez le formulaire ci-dessous pour m&apos;envoyer un mail automatiquement
+        Fill out the form below to automatically send me an email
       </p>
       <div className='w-full h-full flex flex-col gap-4 mt-6'>
         <Input
-          placeholder='Votre nom'
+          placeholder='Your name'
           value={formData.name}
           onChange={(e) => setFormData({...formData, name: e.target.value})}
         />
         <Input
-          placeholder='Votre email'
+          placeholder='Your email'
           type='email'
           value={formData.email}
           onChange={(e) => setFormData({...formData, email: e.target.value})}
         />
         <Input
-          placeholder='Objet'
+          placeholder='Subject'
           value={formData.subject}
           onChange={(e) => setFormData({...formData, subject: e.target.value})}
         />
         <TextArea
-          placeholder='Votre message'
+          placeholder='Your message'
           value={formData.message}
           onChange={(e) => setFormData({...formData, message: e.target.value})}
         />
@@ -77,7 +77,7 @@ const ContactPage = () => {
           </p>
         )}
         <Button onClick={handleSubmit}>
-          Envoyer le message
+          Send message
         </Button>
         <Mail />
       </div>

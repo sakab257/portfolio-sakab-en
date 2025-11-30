@@ -1,8 +1,8 @@
-import Passion from '@/components/a-propos/passion'
-import Prochainement from '@/components/a-propos/prochainement'
-import TechStack from '@/components/a-propos/tech-stack'
-import Contact from '@/components/a-propos/contact'
-import Disponible from '@/components/a-propos/disponible'
+import Passion from '@/components/about/passion'
+import Prochainement from '@/components/about/prochainement'
+import TechStack from '@/components/about/tech-stack'
+import Contact from '@/components/about/contact'
+import Disponible from '@/components/about/disponible'
 import React from 'react'
 
 const About = () => {

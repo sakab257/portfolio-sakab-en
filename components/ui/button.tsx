@@ -17,7 +17,7 @@ export const CopyMail = () =>{
       setCopied(true)
       setTimeout(() => setCopied(false), 2000)
     } catch (err) {
-      console.error('Erreur lors de la copie:', err)
+      console.error('Error happened during the copy:', err)
     }
   }
 
@@ -27,7 +27,7 @@ export const CopyMail = () =>{
           className='text-white text-sm w-full h-full bg-gradient-to-r from-[#161A31] to-[#161A31] flex gap-2 items-center justify-center text-md md:text-lg cursor-pointer hover:opacity-80 transition-opacity'
           onClick={handleCopy}
         >
-          {copied ? 'Copié !' : 'Copier mon mail'} {copied ? <Check className="text-green-400" /> : <Copy />}
+          {copied ? 'Copied !' : 'Copy my mail'} {copied ? <Check className="text-green-400" /> : <Copy />}
         </button>
     </div>
   )
