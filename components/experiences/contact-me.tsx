@@ -13,7 +13,7 @@ const ContactMe = () => {
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#CBACF9] to-[#D4B7FF]"> next level</span>?
         </h2>
         <div className='text-center text-[#C1C2D3] text-lg'>
-            <p>Let's talk about your goals.</p>
+            <p>{`Let's talk about your goals.`}</p>
             <p>Contact me today</p>
         </div>
         <Link href="/contact"><Button label="Contact Me" icon={<ArrowUpRight />}/></Link>
