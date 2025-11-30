@@ -15,7 +15,21 @@ const Mobile = () => {
             {name:"Swift",url:"/projets/technos/swift.png"},
             {name:"PokeAPI",url:"/projets/technos/orig.png"},
             ]}
-            />
+        />
+        <ProjectCard
+            title='Weather'
+            link='https://github.com/sakab257/weather'
+            description='
+            A modern, elegant iOS weather application built with SwiftUI that provides real-time weather forecasts with a beautiful, weather-adaptive interface.
+            '
+            imageUrl='/projets/images/test-project.svg'
+            techno={[
+            {name:"Swift",url:"/projets/technos/swift.png"},
+            {name:"Open Weather",url:"/projets/technos/open_weather.png"},
+            ]}
+        />
+
+        
         </div>
     )
 }
