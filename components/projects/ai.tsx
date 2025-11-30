@@ -10,7 +10,7 @@ const AI = () => {
                 description='
                 IntelliDraw lets you draw digits by hand and get predictions using a deep learning model trained on the MNIST dataset.
                 ' 
-                imageUrl='/projets/images/github.svg' 
+                imageUrl='/projets/images/test-project.svg' 
                 techno={[
                     {name:"Python",url:"/projets/technos/python.png"}
                 ]}
@@ -32,7 +32,7 @@ const AI = () => {
                 title={`Opti'Match`} 
                 link='https://opti-match-sakab.vercel.app/' 
                 description={`Opti'Match is an AI-powered assistant that recommends perfectly tailored IT equipment based on your professional needs, driven by Puter.js and Claude 3.5 Sonnet API.`} 
-                imageUrl='/projets/images/resumind.svg' 
+                imageUrl='/projets/images/optimatch.png' 
                 techno={[
                     {name:"React",url:"/projets/technos/React.svg"},
                     {name:"NextJS",url:"/projets/technos/NextJS.png"},

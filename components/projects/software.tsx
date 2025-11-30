@@ -10,7 +10,7 @@ const Sofware = () => {
                 description={`
                 Jav'Grympe lets climbers browse, select and purchase climbing gear with a smooth and secure payment system.
                 `}
-                imageUrl='/projets/images/github.svg'
+                imageUrl='/projets/images/test-project.svg'
                 techno={[
                     {name:"Java",url:"/projets/technos/java.png"},
                     {name:"MySQL",url:"/projets/technos/MySQL.png"},
@@ -23,7 +23,7 @@ const Sofware = () => {
                 description='
                 PlagiC detects, compares and measures similarity between C files using efficient detection algorithms.
                 '
-                imageUrl='/projets/images/github.svg'
+                imageUrl='/projets/images/test-project.svg'
                 techno={[
                     {name:"C",url:"/projets/technos/c.png"},
                 ]}

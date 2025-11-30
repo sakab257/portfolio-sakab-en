@@ -10,7 +10,7 @@ const Mobile = () => {
             description='
             A modern, retro-styled Pokedex application built with SwiftUI that displays Gen 1 Pokemon, Items and let you adding Pokemon as Favourites using the PokeAPI.
             '
-            imageUrl='/projets/images/github.svg'
+            imageUrl='/projets/images/test-project.svg'
             techno={[
             {name:"Swift",url:"/projets/technos/swift.png"},
             {name:"PokeAPI",url:"/projets/technos/orig.png"},
